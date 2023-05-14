@@ -1,0 +1,38 @@
+.poppins {
+  font-family: Poppins;
+}
+
+.h-head {
+  height: calc(100vh - 70px);
+}
+
+.bounce {
+  animation: bounce 2s infinite;
+}
+
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-30px);
+  }
+  60% {
+    transform: translateY(-15px);
+  }
+}
+
+.scroller {
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+}
+
+.skill {
+  &-logo {
+    min-width: 120px;
+    max-width: 120px;
+  }
+  &-card {
+    min-height: 120px;
+  }
+}
