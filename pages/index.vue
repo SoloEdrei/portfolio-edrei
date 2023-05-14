@@ -1,12 +1,11 @@
 <template>
-<div class="main h-head snap-y scroll-pt-16 snap-proximity scroller ">
+<div class="main h-head scroller ">
   <SectionMain/>
-  <div class="h-screen snap-start snap-always">
+  <div class="h-screen">
     <SectionAbout/>
     <SectionWork/>
     <SectionSkills/>
     <SectionCalendly/>
-    <SectionFooter/>
   </div>
 </div>
 </template>

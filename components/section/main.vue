@@ -1,7 +1,7 @@
 <template>
-  <div class="snap-center snap-always flex h-full" id="main-section">
+  <div class="flex h-full" id="main-section">
     <div class="my-auto mx-36 w-full">
-      <div class="grid grid-cols-2 w-full">
+      <div class="grid grid-cols-2 sm:grid-cols-1 w-full">
         <div class="p-6 flex">
           <div class="my-auto">
             <div class="block">
