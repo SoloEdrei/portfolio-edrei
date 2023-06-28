@@ -1,7 +1,7 @@
 <template>
   <div class="flex h-full" id="main-section">
-    <div class="my-auto mx-36 w-full">
-      <div class="grid grid-cols-2 sm:grid-cols-1 w-full">
+    <div class="my-auto mx-auto md:mx-36 w-full">
+      <div class="grid md:grid-cols-2 w-full">
         <div class="p-6 flex">
           <div class="my-auto">
             <div class="block">
@@ -18,7 +18,7 @@
             </div>
           </div>
         </div>
-        <div class="p-6">
+        <div class="p-6 hidden md:flex">
           <div class="h-full w-full flex">
             <img src="~/assets/images/profile.png" class="w-full" alt="">
           </div>

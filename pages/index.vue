@@ -1,5 +1,5 @@
 <template>
-<div class="main h-head scroller ">
+<div class="main h-head scroller">
   <SectionMain/>
   <div class="h-screen">
     <SectionAbout/>
