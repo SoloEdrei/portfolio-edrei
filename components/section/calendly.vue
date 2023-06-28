@@ -1,6 +1,6 @@
 <template>
   <div class="flex my-8" id="contact-section">
-    <div class="my-auto mx-36 w-full">
+    <div class="my-auto mx-auto md:mx-36 w-full">
       <div class="grid grid-cols-1 w-full p-6">
         <div class="text-center">
           <span class="text-2xl text-indigo-700 font-medium mb-10">

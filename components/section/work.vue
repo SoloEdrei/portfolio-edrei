@@ -1,8 +1,8 @@
 <template>
   <div class="flex mt-16" id="work-section">
-    <div class="my-auto mx-36 w-full">
-      <div class="grid grid-cols-3 w-full">
-        <div class="p-6 col-span-3">
+    <div class="my-auto mx-auto md:mx-36 w-full">
+      <div class="md:grid md:grid-cols-3 w-full">
+        <div class="p-6 md:col-span-3">
           <span class="text-2xl text-indigo-700 font-medium pb-6">
             Personal Projects 🚀
           </span>

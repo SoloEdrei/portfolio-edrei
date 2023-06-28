@@ -1,8 +1,8 @@
 <template>
   <div class="flex mt-16" id="about-section">
-    <div class="mx-36 w-full">
+    <div class="mx-auto my-auto md:mx-36 w-full">
       <div class="grid grid-cols-4 w-full">
-        <div class="p-6 flex col-span-3">
+        <div class="p-6 flex col-span-6 md:col-span-3">
           <div class="">
             <div class="block text-2xl text-indigo-700 font-medium pb-6">
               About Me 🧑🏽‍💻
