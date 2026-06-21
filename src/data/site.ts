@@ -92,14 +92,14 @@ export const projects = [
     title: "WhatsApp Cloud API Bot",
     description: "Integration with WhatsApp Cloud API using Express, replacing Twilio and significantly reducing company messaging costs in production.",
     stack: ["Node.js", "Express", "WhatsApp API"],
-    link: "https://github.com/SoloEdrei/ansa-whatsappbot",
+    link: null,
   },
   {
     tag: "Government · Laravel",
     title: "Judge Evaluation System",
     description: "Monolithic application to evaluate first-instance judges in Morelos, featuring a randomized question algorithm ensuring unique evaluation per judge.",
     stack: ["Laravel", "Vue.js", "MySQL", "Vite"],
-    link: "https://github.com/devanymx/tsjm-exam",
+    link: null,
   },
 ];
 
