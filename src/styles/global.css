@@ -1,0 +1,56 @@
+@import "tailwindcss";
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    background-color: white;
+    color: #1e293b;
+    -webkit-font-smoothing: antialiased;
+  }
+}
+
+@layer components {
+  .chip {
+    font-size: 0.75rem;
+    font-weight: 500;
+    padding: 0.25rem 0.625rem;
+    border-radius: 9999px;
+    border: 1px solid #e2e8f0;
+    background-color: #f8fafc;
+    color: #475569;
+  }
+  .chip-accent {
+    font-size: 0.75rem;
+    font-weight: 500;
+    padding: 0.25rem 0.625rem;
+    border-radius: 9999px;
+    border: 1px solid #99f6e4;
+    background-color: #f0fdfa;
+    color: #0f766e;
+  }
+  .exp-chip {
+    font-size: 0.70rem;
+    padding: 0.125rem 0.5rem;
+    border-radius: 0.25rem;
+    border: 1px solid #e2e8f0;
+    background-color: #f8fafc;
+    color: #64748b;
+  }
+  .section-label {
+    font-size: 0.7rem;
+    font-weight: 600;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: #0d9488;
+    margin-bottom: 0.5rem;
+  }
+  .divider {
+    width: 2rem;
+    height: 2px;
+    background-color: #14b8a6;
+    border-radius: 9999px;
+    margin-bottom: 1.5rem;
+  }
+}
